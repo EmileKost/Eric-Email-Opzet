@@ -1,0 +1,308 @@
+@font-face {
+    font-family: ubuntuBold;
+    src: url('fonts/ubuntu/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url('fonts/ubuntu/Ubuntu-Light.ttf');
+}
+
+body {
+    font-family: ubuntu;
+    background-color: #edeef6;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    font-family: ubuntu;
+}
+
+h1 {
+    text-align: center;
+    font-family: ubuntuBold, sans-serif;
+}
+
+h3 {
+    font-family: ubuntuBold;
+}
+
+h4 {
+    font-family: ubuntuBold;
+}
+
+main {
+    font-family: ubuntu;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+#vbtn {
+    text-align: center;
+    width: 350px;
+    padding: 15px;
+    background-color: #2a9d8f;
+    color: #fefefe;
+    border-radius: 25px;
+    border: none;
+    position: fixed;
+    top: -1;
+    margin-bottom: 3%;
+}
+
+#vbtn:disabled {
+    opacity: 50%;
+}
+
+#vbtn:hover {
+    border: 2px solid beige;
+}
+
+/* Opzet van de email */
+#e-mail {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3a86ff;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#afzender {
+    display: flex;
+    flex-direction: column;
+}
+
+#ontvanger {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+#plaats {
+    margin-top: 4%;
+}
+
+#begroeten {
+    margin-top: 4%;
+}
+
+#afsluiten {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+#e-mail h2 {
+    text-align: center;
+    font-family: ubuntuBold;
+}
+
+#naam, #naam-ontvanger, #eind-naam {
+    width: 250px;
+    margin-bottom: 1%;
+}
+
+#adres, #adres-ontvanger {
+    width: 200px;
+    height: 50px;
+}
+
+#plaats-datum {
+    width: 250px;
+}
+
+#begroeting {
+    width: 220px;
+}
+
+#email {
+    margin-top: 4%;
+}
+
+#bericht {
+    width: 100%;
+    min-height: 500px;
+}
+
+#afsluit-begroeting {
+    width: 220px;
+    height: 75px;
+    margin-bottom: 4%;
+}
+
+/* Hulp menu */
+/* article {
+    border: 2px solid green;
+} */
+
+h2 {
+    font-family: ubuntuBold;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: ubuntu;
+}
+
+#content {
+    margin-top: 4%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#name, #nameO {
+    margin-bottom: 0;
+}
+
+#adress, #adressO {
+    margin-top: 0;
+}
+
+#melding {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    background-color: #eaf4f4;
+    border-bottom: 3px solid black;
+}
+
+#open {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#open button {
+    text-align: center;
+    width: 350px;
+    padding: 15px;
+    background-color: #4361ee;
+    color: #fefefe;
+    border-radius: 25px;
+    border: none;
+    top: 120px;
+    position: fixed;
+}
+
+#close {
+    width: 150px;
+    padding: 5px;
+    background-color: #ef233c;
+    color: #fefefe;
+    border: none;
+    margin-top: 2%;
+}
+
+#close:hover {
+    transform: scale(1.1);
+}
+
+#open button:hover {
+    transform: scale(1.1);
+}
+
+.help-container {
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.help-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.help {
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#content {
+    margin-bottom: 5%;
+}
+
+#generate {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#generate button {
+    text-align: center;
+    width: 350px;
+    padding: 15px;
+    background-color: #ffbe0b;
+    color: #fefefe;
+    border-radius: 25px;
+    border: none;
+}
+
+#generate button:hover {
+    transform: scale(1.1);
+}
+
+#submit {
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    background-color: #4361ee;
+    color: #fefefe;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    margin-top: 3%;
+}
+
+#kopieerMelding {
+    color: #40916c;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Animation */
+
+#wizard {
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {transform: translateX(-10);}
+    100% {transform: translateX(800px);}
+}
