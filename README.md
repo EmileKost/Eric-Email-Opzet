@@ -44,8 +44,10 @@ een gehele paragraaf te kopieren en deze in een textarea te plakken. Dit was eig
 die precies doet wat voor de opdracht vereist was. Toch was dit eerste ontwerp voor Eric heel afstandelijk
 en nog niet bepaald bruikbaar. Toch wilde ik mijn concept testen om te kijken hoe Eric in het 
 algemeen denkt over het gebruik van voice commands
-<img src="images/concept1a">
-<img src="images/concept1b">
+<img width="1311" alt="concept1a" src="https://user-images.githubusercontent.com/70690100/168275203-b9f29c7c-b4b6-4a50-8d84-47aadda93f77.png">
+<img width="1032" alt="concept1b" src="https://user-images.githubusercontent.com/70690100/168275275-d72b5c49-f3cd-4d2d-89e9-c239ddab0c05.png">
+
+
 
 #### Gestelde vragen
 1. Hoe kopieert u nu?
@@ -87,19 +89,19 @@ laatste dingen kunnen aanpassen.
 * Zorg dat de microfoon voor langere tijd blijft aanstaan
 
 ### Eind ontwerp
-<img src="images/concept3a">
+<img width="1361" alt="concept3a" src="https://user-images.githubusercontent.com/70690100/168275315-9ba26df5-4621-421c-a128-be6d983928b3.png">
 Ik heb gebruik gemaakt van grote knoppen zodat deze makkelijk klikbaar zijn voor Eric. 
 Tevens hebben de knoppen een position fixed zodat Eric zo min mogelijk hoeft te scrollen. Dit
 vindt hij namelijk erg lastig.
 
-<img src="images/concept3b">
+<img width="1042" alt="concept3b" src="https://user-images.githubusercontent.com/70690100/168275330-3ab417d1-eb2d-47b5-bade-3894773bebe4.png">
 Ik heb een duidelijke hulp melding toegevoegd die Eric overal gemakkelijk kan zien zodat die
 nooit met vragen komt te zitten.
 
-<img src="images/concept3c">
+<img width="704" alt="concept3c" src="https://user-images.githubusercontent.com/70690100/168275349-60941791-2f2b-41bb-b1c6-fa26ad897b8d.png">
 Ik heb ervoor gezorgd dat er duidelijk wordt aangegeven wat is gekopieerd.
 
-<img src="images/concept3e">
+<img width="448" alt="concept3e" src="https://user-images.githubusercontent.com/70690100/168275362-8370ccff-8b81-4e67-afc9-214b6788bfe1.png">
 Om tijd te besparen heb ik ervoor gezorgd dat Eric zijn gegevens kan opslaan. Deze worden in
 de local storage gezet zodat dit bij refreshen niet wegvalt en Eric deze data keer op keer
 opnieuw kan gebruiken
